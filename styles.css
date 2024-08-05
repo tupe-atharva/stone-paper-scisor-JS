@@ -1,0 +1,111 @@
+*{
+    padding :0;
+    margin: 0;
+    text-align: center;
+}
+
+h1{
+    margin: 1rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    border-radius: 3rem;
+    background-color: rgb(35, 87, 107);
+    color: white;
+    font-size: 3rem;
+    height: 6rem;
+    line-height: 6rem;
+    
+}
+
+.choice{
+    /* background-color: antiquewhite; */
+    height: 15rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    object-fit: contain;
+}
+
+#paper{
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+#rock{
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+    object-fit: cover;
+
+}
+#scissors{
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+    object-fit: cover;
+
+}
+
+img:hover{
+    cursor: pointer;
+    border: 4px solid rgb(31, 30, 30);
+}
+
+.score-board{
+    padding-top: 1rem;
+    /* background-color: antiquewhite; */
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    height: 7rem;
+    line-height: 4rem;
+}
+
+#user-score{
+    font-size: 2rem;
+}
+#comp-score{
+    font-size: 2rem;
+}
+#user{
+    padding-top: 0.2rem;
+    font-size: 4rem;
+}
+#comp{
+    font-size: 4rem;
+    padding-top: 0.2rem;
+}
+#play{
+    background-color: rgb(35, 87, 107);
+    color: white;
+    margin-top: 3rem;
+    font-size: 2rem;
+    font-weight: 400;
+    padding: 1rem;
+    width: 15rem;
+    height: 5rem;
+    border: none;
+    border-radius: 2.5rem;
+}
+
+#restart{
+    background-color: rgb(35, 87, 107);
+    color: white;
+    margin-top: 3rem;
+    font-size: 2rem;
+    font-weight: 400;
+    padding: 1rem;
+    width: 15rem;
+    height: 5rem;
+    border: none;
+    border-radius: 2.5rem;
+}
+
+.functionality-buttons{
+    display: flex;
+    justify-content: center;
+    /* background-color: aquamarine; */
+    gap: 5rem;
+}
