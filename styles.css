@@ -3,6 +3,9 @@
     margin: 0;
     text-align: center;
 }
+body{
+    background-color:rgb(224, 240, 244);
+}
 
 h1{
     margin: 1rem;
